@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering</title>
+    <link rel="stylesheet" href="c&sEngineeringStyle.css" />
+  </head>
+  <body>
+    <section id="container">
+      <header id="head">
+        <img id="logo" src="./Images/logo.png" alt="Coding Comrades" />
+
+        <div class="topmenu">
+          <ul>
+            <li class="topLinks">
+              <a href="index.html" class="menuattop">Home</a>
+            </li>
+            <li class="topLinks">
+              <a href="./meettheteam.html">Meet the Team</a>
+            </li>
+            <li class="topLinks"><a href="./contactpage.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <span class="verticalmenu">
+        <ul id="list">
+          <li class="links"><a href="index.html">Index</a></li>
+          <li class="links"><a href="overview.html">The World Wide Web</a></li>
+          <li class="links">
+            <a href="history.html">History of the Internet</a>
+          </li>
+          <li class="links">
+            <a href="WWWvsInternet.html">WWW vs the Internet</a>
+          </li>
+          <li class="links">
+            <a href="evolution.html">Evolution of the Internet</a>
+          </li>
+          <li class="links"><a href="protocols.html">Internet Protocols</a></li>
+          <li class="links">
+            <a href="WebApplicationArchitecture.html"
+              >Web Application Architecture</a
+            >
+          </li>
+          <li class="links">
+            <a href="c&sEngineering.html"
+              >Client-side & Server-side Engineering</a
+            >
+          </li>
+        </ul>
+      </span>
+
+      <article id="engineering">
+        <span id="title"> Client-side and Server-side Engineering</span>
+        <span id="text">
+          <p>
+            In a typical web application, two distinct codes (sub-programs) are
+            executing concurrently. These are the following: Client-side code,
+            which is code that resides in the browser and reacts to user input,
+            as well as server-side code, which is the code that runs on the
+            server and reacts to HTTP requests. A team of web developers working
+            on the web application chooses what the server code will perform in
+            relation to the browser code. C#, Java, JavaScript, Python and more
+            languages are used to write server-side code.
+          </p>
+          <img
+            id="image"
+            src="./Images/client-server-relationship.jpg"
+            alt="Client/server relationship"
+          />
+          <p>
+            A server is capable of running any code that can reply to HTTP
+            requests. The server-side code is in charge of generating the
+            requested page as well as storing various sorts of data, such as
+            user profiles and user input. The end-user is never aware of it. The
+            client-side code is written using a combination of CSS, HTML, and
+            JavaScript. The web browser decodes this code. Client-side code,
+            unlike server-side code, may be viewed and updated by the user. It
+            responds to the input of the user. The client-side code can only
+            connect with the server via HTTP requests and cannot read files
+            directly from the server (Banga, 2021).
+          </p>
+          <p id="references">
+            Banga, S. 2021. What is Web Application Architecture? Components,
+            Models, and Types. [ONLINE] Available at:
+            https://hackr.io/blog/web-application-architecture-definition-models-types-and-more.
+            [Accessed 02 October 2021].
+          </p>
+        </span>
+      </article>
+      <footer id="author">
+        <p>By Suné du Raan, Coding Comrades. 2021.</p>
+      </footer>
+    </section>
+  </body>
+</html>

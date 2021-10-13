@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protocols</title>
+    <link rel="stylesheet" href="protocolsStyle.css" />
+  </head>
+  <body>
+    <section id="container">
+      <header id="head">
+        <img id="logo" src="./Images/logo.png" alt="Coding Comrades" />
+
+        <div class="topmenu">
+          <ul>
+            <li class="topLinks">
+              <a href="index.html" class="menuattop">Home</a>
+            </li>
+            <li class="topLinks">
+              <a href="./meettheteam.html">Meet the Team</a>
+            </li>
+            <li class="topLinks"><a href="./contactpage.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <span class="verticalmenu">
+        <ul id="list">
+          <li class="links"><a href="index.html">Index</a></li>
+          <li class="links"><a href="overview.html">The World Wide Web</a></li>
+          <li class="links">
+            <a href="history.html">History of the Internet</a>
+          </li>
+          <li class="links">
+            <a href="WWWvsInternet.html">WWW vs the Internet</a>
+          </li>
+          <li class="links">
+            <a href="evolution.html">Evolution of the Internet</a>
+          </li>
+          <li class="links"><a href="protocols.html">Internet Protocols</a></li>
+          <li class="links">
+            <a href="WebApplicationArchitecture.html"
+              >Web Application Architecture</a
+            >
+          </li>
+          <li class="links">
+            <a href="c&sEngineering.html"
+              >Client-side & Server-side Engineering</a
+            >
+          </li>
+        </ul>
+      </span>
+
+      <article id="protocols">
+        <span id="title">Internet Protocols</span>
+        <span id="text">
+          <p>
+            The Internet Protocol (IP) is a collection of rules for routing and
+            addressing data packets so that they can transit across networks and
+            reach their intended destination. Data traveling over the Internet
+            is broken down into smaller units known as packets. Each packet has
+            IP information attached to it, which helps routers transmit packets
+            to the correct location. Every device or domain that connects to the
+            Internet is given an IP address, and data arrives where it is
+            required when packets are routed to the IP address allocated to
+            them. Depending on whatever transport protocol is used in
+            conjunction with IP, packets are treated differently after they
+            arrive at their destination. TCP and UDP are the most widely used
+            transport protocols.
+          </p>
+          <p>
+            A device or domain that connects to the Internet is given an IP
+            address, which is a unique identification. Each IP address is made
+            up of a string of numbers and letters, such as '192.168.1.1'. Users
+            can visit websites without remembering IP addresses thanks to DNS
+            resolvers, which convert human-readable domain names into IP
+            addresses. Each IP packet will include both the IP address of the
+            device or domain delivering the packet and the IP address of the
+            intended receiver, similar to how a piece of mail includes both the
+            destination and return address. Before each packet of data is sent
+            on its route, an IP header is added to it. This creates IP packets.
+            An IP header is merely a string of bits (ones and zeros) that
+            contains information about the packet, such as the transmitting and
+            receiving IP addresses.
+          </p>
+          <img id="image" src="./Images/protocols.jpg" alt="Protocols" />
+          <p>
+            The Internet is made up of linked big networks, each of which is in
+            charge of a block of IP addresses; these large networks are referred
+            to as autonomous systems (AS). Packets are routed between ASes
+            depending on their destination IP addresses using a number of
+            routing protocols, including BGP. Routing tables on routers specify
+            which ASes packets should travel through to get to their target
+            destination as fast as possible. Packets move from one AS to the
+            next until they reach one that claims responsibility for the IP
+            address in question. The packets are then internally routed to the
+            destination by that AS.
+          </p>
+        </span>
+      </article>
+      <footer id="author">
+        <p>By Suné du Raan, Coding Comrades. 2021.</p>
+      </footer>
+    </section>
+  </body>
+</html>
